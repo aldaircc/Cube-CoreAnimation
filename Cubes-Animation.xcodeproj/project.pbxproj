@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0584DAA12CC46BDB00BF9658 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0584DAA02CC46BDB00BF9658 /* AppDelegate.swift */; };
+		0584DAA32CC46BDB00BF9658 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0584DAA22CC46BDB00BF9658 /* SceneDelegate.swift */; };
+		0584DAA52CC46BDB00BF9658 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0584DAA42CC46BDB00BF9658 /* ViewController.swift */; };
+		0584DAA82CC46BDB00BF9658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0584DAA62CC46BDB00BF9658 /* Main.storyboard */; };
+		0584DAAA2CC46BDC00BF9658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0584DAA92CC46BDC00BF9658 /* Assets.xcassets */; };
+		0584DAAD2CC46BDC00BF9658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0584DAAB2CC46BDC00BF9658 /* LaunchScreen.storyboard */; };
+		0584DAB82CC46BDC00BF9658 /* Cubes_AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0584DAB72CC46BDC00BF9658 /* Cubes_AnimationTests.swift */; };
+		0584DAC22CC46BDC00BF9658 /* Cubes_AnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0584DAC12CC46BDC00BF9658 /* Cubes_AnimationUITests.swift */; };
+		0584DAC42CC46BDC00BF9658 /* Cubes_AnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0584DAC32CC46BDC00BF9658 /* Cubes_AnimationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0584DAB42CC46BDC00BF9658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0584DA952CC46BDB00BF9658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0584DA9C2CC46BDB00BF9658;
+			remoteInfo = "Cubes-Animation";
+		};
+		0584DABE2CC46BDC00BF9658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0584DA952CC46BDB00BF9658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0584DA9C2CC46BDB00BF9658;
+			remoteInfo = "Cubes-Animation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0584DA9D2CC46BDB00BF9658 /* Cubes-Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cubes-Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0584DAA02CC46BDB00BF9658 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0584DAA22CC46BDB00BF9658 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0584DAA42CC46BDB00BF9658 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0584DAA72CC46BDB00BF9658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0584DAA92CC46BDC00BF9658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0584DAAC2CC46BDC00BF9658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0584DAAE2CC46BDC00BF9658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0584DAB32CC46BDC00BF9658 /* Cubes-AnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cubes-AnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0584DAB72CC46BDC00BF9658 /* Cubes_AnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cubes_AnimationTests.swift; sourceTree = "<group>"; };
+		0584DABD2CC46BDC00BF9658 /* Cubes-AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cubes-AnimationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0584DAC12CC46BDC00BF9658 /* Cubes_AnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cubes_AnimationUITests.swift; sourceTree = "<group>"; };
+		0584DAC32CC46BDC00BF9658 /* Cubes_AnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cubes_AnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0584DA9A2CC46BDB00BF9658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0584DAB02CC46BDC00BF9658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0584DABA2CC46BDC00BF9658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0584DA942CC46BDB00BF9658 = {
+			isa = PBXGroup;
+			children = (
+				0584DA9F2CC46BDB00BF9658 /* Cubes-Animation */,
+				0584DAB62CC46BDC00BF9658 /* Cubes-AnimationTests */,
+				0584DAC02CC46BDC00BF9658 /* Cubes-AnimationUITests */,
+				0584DA9E2CC46BDB00BF9658 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0584DA9E2CC46BDB00BF9658 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0584DA9D2CC46BDB00BF9658 /* Cubes-Animation.app */,
+				0584DAB32CC46BDC00BF9658 /* Cubes-AnimationTests.xctest */,
+				0584DABD2CC46BDC00BF9658 /* Cubes-AnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0584DA9F2CC46BDB00BF9658 /* Cubes-Animation */ = {
+			isa = PBXGroup;
+			children = (
+				0584DAA02CC46BDB00BF9658 /* AppDelegate.swift */,
+				0584DAA22CC46BDB00BF9658 /* SceneDelegate.swift */,
+				0584DAA42CC46BDB00BF9658 /* ViewController.swift */,
+				0584DAA62CC46BDB00BF9658 /* Main.storyboard */,
+				0584DAA92CC46BDC00BF9658 /* Assets.xcassets */,
+				0584DAAB2CC46BDC00BF9658 /* LaunchScreen.storyboard */,
+				0584DAAE2CC46BDC00BF9658 /* Info.plist */,
+			);
+			path = "Cubes-Animation";
+			sourceTree = "<group>";
+		};
+		0584DAB62CC46BDC00BF9658 /* Cubes-AnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				0584DAB72CC46BDC00BF9658 /* Cubes_AnimationTests.swift */,
+			);
+			path = "Cubes-AnimationTests";
+			sourceTree = "<group>";
+		};
+		0584DAC02CC46BDC00BF9658 /* Cubes-AnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0584DAC12CC46BDC00BF9658 /* Cubes_AnimationUITests.swift */,
+				0584DAC32CC46BDC00BF9658 /* Cubes_AnimationUITestsLaunchTests.swift */,
+			);
+			path = "Cubes-AnimationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0584DA9C2CC46BDB00BF9658 /* Cubes-Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0584DAC72CC46BDC00BF9658 /* Build configuration list for PBXNativeTarget "Cubes-Animation" */;
+			buildPhases = (
+				0584DA992CC46BDB00BF9658 /* Sources */,
+				0584DA9A2CC46BDB00BF9658 /* Frameworks */,
+				0584DA9B2CC46BDB00BF9658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cubes-Animation";
+			productName = "Cubes-Animation";
+			productReference = 0584DA9D2CC46BDB00BF9658 /* Cubes-Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0584DAB22CC46BDC00BF9658 /* Cubes-AnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0584DACA2CC46BDC00BF9658 /* Build configuration list for PBXNativeTarget "Cubes-AnimationTests" */;
+			buildPhases = (
+				0584DAAF2CC46BDC00BF9658 /* Sources */,
+				0584DAB02CC46BDC00BF9658 /* Frameworks */,
+				0584DAB12CC46BDC00BF9658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0584DAB52CC46BDC00BF9658 /* PBXTargetDependency */,
+			);
+			name = "Cubes-AnimationTests";
+			productName = "Cubes-AnimationTests";
+			productReference = 0584DAB32CC46BDC00BF9658 /* Cubes-AnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0584DABC2CC46BDC00BF9658 /* Cubes-AnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0584DACD2CC46BDC00BF9658 /* Build configuration list for PBXNativeTarget "Cubes-AnimationUITests" */;
+			buildPhases = (
+				0584DAB92CC46BDC00BF9658 /* Sources */,
+				0584DABA2CC46BDC00BF9658 /* Frameworks */,
+				0584DABB2CC46BDC00BF9658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0584DABF2CC46BDC00BF9658 /* PBXTargetDependency */,
+			);
+			name = "Cubes-AnimationUITests";
+			productName = "Cubes-AnimationUITests";
+			productReference = 0584DABD2CC46BDC00BF9658 /* Cubes-AnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0584DA952CC46BDB00BF9658 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					0584DA9C2CC46BDB00BF9658 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					0584DAB22CC46BDC00BF9658 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 0584DA9C2CC46BDB00BF9658;
+					};
+					0584DABC2CC46BDC00BF9658 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 0584DA9C2CC46BDB00BF9658;
+					};
+				};
+			};
+			buildConfigurationList = 0584DA982CC46BDB00BF9658 /* Build configuration list for PBXProject "Cubes-Animation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0584DA942CC46BDB00BF9658;
+			productRefGroup = 0584DA9E2CC46BDB00BF9658 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0584DA9C2CC46BDB00BF9658 /* Cubes-Animation */,
+				0584DAB22CC46BDC00BF9658 /* Cubes-AnimationTests */,
+				0584DABC2CC46BDC00BF9658 /* Cubes-AnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0584DA9B2CC46BDB00BF9658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0584DAAD2CC46BDC00BF9658 /* LaunchScreen.storyboard in Resources */,
+				0584DAAA2CC46BDC00BF9658 /* Assets.xcassets in Resources */,
+				0584DAA82CC46BDB00BF9658 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0584DAB12CC46BDC00BF9658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0584DABB2CC46BDC00BF9658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0584DA992CC46BDB00BF9658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0584DAA52CC46BDB00BF9658 /* ViewController.swift in Sources */,
+				0584DAA12CC46BDB00BF9658 /* AppDelegate.swift in Sources */,
+				0584DAA32CC46BDB00BF9658 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0584DAAF2CC46BDC00BF9658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0584DAB82CC46BDC00BF9658 /* Cubes_AnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0584DAB92CC46BDC00BF9658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0584DAC42CC46BDC00BF9658 /* Cubes_AnimationUITestsLaunchTests.swift in Sources */,
+				0584DAC22CC46BDC00BF9658 /* Cubes_AnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0584DAB52CC46BDC00BF9658 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0584DA9C2CC46BDB00BF9658 /* Cubes-Animation */;
+			targetProxy = 0584DAB42CC46BDC00BF9658 /* PBXContainerItemProxy */;
+		};
+		0584DABF2CC46BDC00BF9658 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0584DA9C2CC46BDB00BF9658 /* Cubes-Animation */;
+			targetProxy = 0584DABE2CC46BDC00BF9658 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0584DAA62CC46BDB00BF9658 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0584DAA72CC46BDB00BF9658 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0584DAAB2CC46BDC00BF9658 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0584DAAC2CC46BDC00BF9658 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0584DAC52CC46BDC00BF9658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0584DAC62CC46BDC00BF9658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0584DAC82CC46BDC00BF9658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cubes-Animation/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.acosetito.dev.Cubes-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0584DAC92CC46BDC00BF9658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cubes-Animation/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.acosetito.dev.Cubes-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0584DACB2CC46BDC00BF9658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.acosetito.dev.Cubes-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cubes-Animation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cubes-Animation";
+			};
+			name = Debug;
+		};
+		0584DACC2CC46BDC00BF9658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.acosetito.dev.Cubes-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cubes-Animation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cubes-Animation";
+			};
+			name = Release;
+		};
+		0584DACE2CC46BDC00BF9658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.acosetito.dev.Cubes-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cubes-Animation";
+			};
+			name = Debug;
+		};
+		0584DACF2CC46BDC00BF9658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.acosetito.dev.Cubes-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cubes-Animation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0584DA982CC46BDB00BF9658 /* Build configuration list for PBXProject "Cubes-Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0584DAC52CC46BDC00BF9658 /* Debug */,
+				0584DAC62CC46BDC00BF9658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0584DAC72CC46BDC00BF9658 /* Build configuration list for PBXNativeTarget "Cubes-Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0584DAC82CC46BDC00BF9658 /* Debug */,
+				0584DAC92CC46BDC00BF9658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0584DACA2CC46BDC00BF9658 /* Build configuration list for PBXNativeTarget "Cubes-AnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0584DACB2CC46BDC00BF9658 /* Debug */,
+				0584DACC2CC46BDC00BF9658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0584DACD2CC46BDC00BF9658 /* Build configuration list for PBXNativeTarget "Cubes-AnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0584DACE2CC46BDC00BF9658 /* Debug */,
+				0584DACF2CC46BDC00BF9658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0584DA952CC46BDB00BF9658 /* Project object */;
+}

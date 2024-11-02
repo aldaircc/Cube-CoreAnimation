@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cubes_Animation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b8Y-hj-k2H">
+                                <rect key="frame" x="16" y="421" width="104" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="QOy-S9-t4M"/>
+                                    <constraint firstAttribute="width" constant="104" id="tPc-rA-Idr"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Move here"/>
+                                <connections>
+                                    <action selector="moveHereButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uAU-s1-mYu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h5f-qB-aGd">
+                                <rect key="frame" x="16" y="706" width="104" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="uq1-kG-omr"/>
+                                    <constraint firstAttribute="width" constant="104" id="yYR-1a-Ykd"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Move here"/>
+                                <connections>
+                                    <action selector="moveHereButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pnx-Lw-tLY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="en8-Ow-zJr">
+                                <rect key="frame" x="273" y="421" width="104" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="104" id="68f-r0-ReQ"/>
+                                    <constraint firstAttribute="height" constant="35" id="S2V-Gd-kCc"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Move here"/>
+                                <connections>
+                                    <action selector="moveHereButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dXL-Ww-6wj"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2JR-0E-6TR">
+                                <rect key="frame" x="161.66666666666666" y="82" width="70" height="70"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="Ovr-Vi-BdT"/>
+                                    <constraint firstAttribute="height" constant="70" id="TFF-Wf-Mjg"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Li9-ZT-0sz">
+                                <rect key="frame" x="273" y="706" width="104" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Rvs-Kd-fyp"/>
+                                    <constraint firstAttribute="width" constant="104" id="sRR-Hl-Ko5"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Move here"/>
+                                <connections>
+                                    <action selector="moveHereButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Aaq-y2-Q41"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2JR-0E-6TR" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="85n-5P-buL"/>
+                            <constraint firstItem="2JR-0E-6TR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="23" id="8YR-nG-Xze"/>
+                            <constraint firstItem="en8-Ow-zJr" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="CWs-4Y-5cs"/>
+                            <constraint firstItem="b8Y-hj-k2H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="KOx-hO-CLn"/>
+                            <constraint firstItem="b8Y-hj-k2H" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="OqG-xK-Xaf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="en8-Ow-zJr" secondAttribute="trailing" constant="16" id="YBc-6q-kQg"/>
+                            <constraint firstItem="Li9-ZT-0sz" firstAttribute="top" secondItem="en8-Ow-zJr" secondAttribute="bottom" constant="250" id="aWY-uS-xiE"/>
+                            <constraint firstItem="h5f-qB-aGd" firstAttribute="leading" secondItem="b8Y-hj-k2H" secondAttribute="leading" id="bTQ-0W-W6v"/>
+                            <constraint firstItem="Li9-ZT-0sz" firstAttribute="trailing" secondItem="en8-Ow-zJr" secondAttribute="trailing" id="eYp-GZ-0Gd"/>
+                            <constraint firstItem="h5f-qB-aGd" firstAttribute="top" secondItem="b8Y-hj-k2H" secondAttribute="bottom" constant="250" id="roy-2y-Vla"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cubeView" destination="2JR-0E-6TR" id="P7n-G6-bWo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
